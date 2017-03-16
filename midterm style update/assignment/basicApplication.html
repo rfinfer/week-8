@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/leaflet.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link href='https://api.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.css' rel='stylesheet' />
+
+  </head>
+  <body>
+
+    <!-- Start HTML -->
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div id="items"></div>
+        <div id="intro">
+          <h1>Bicycle and Pedestrian Crashes in Philadelphia</h1>
+          <!--<p class="main">2012 Crashes</p>-->
+          <p class="sub">We're going to explore pedestrian and bicycle crashes in Philadelphia in 2012. </p>
+          <br>
+          <button id = "previous">Previous slide</button>
+
+          <button id = "next">Next slide</button>
+        </div>
+        <div id="results" style="display: none;">
+        </div>
+        <div class="legend">
+
+      </div>
+
+    </div>
+    <!-- Map -->
+    <div id="map" class="map"></div>
+
+
+    <!-- End HTML -->
+
+    <!-- Start Javascript Imports -->
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="https://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+    <script src="js/basicApplication.js"></script>
+    <script src="js/midtermFunctions.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.js'></script>
+    <script src="js/main.js"></script>
+
+    <!-- End Javascript Imports -->
+
+  </body>
+</html>
